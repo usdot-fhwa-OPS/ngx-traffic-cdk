@@ -6,7 +6,9 @@ import { Component } from '@angular/core';
   template: `
     <p>
       sample-traffic-cdk-component works with ngx-traffic-cdk!
-                    ⣠⣴⡆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+    </p>
+    <p>
+                   ⣠⣴⡆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣾⣿⡾⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠠⣿⡿⠟⢀⣀⢤⡀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⡼⠟⠛⠛⠓⠙⠚⢡⣀⣀⠀⠀⠀⠀⠀⠀
