@@ -8,8 +8,8 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "build:all": "ng build sample-traffic-cdk-component",
-    "publish:library-one": "cd dist/sample-traffic-cdk-component && npm publish --access public",
-    "publish:all": "npm-run-all build:all publish:library-*"
+    "publish:traffic-cdk-component-sample": "cd dist/sample-traffic-cdk-component && npm publish --access public",
+    "publish:all": "npm-run-all build:all publish:traffic-cdk-*"
   },
   "private": true,
   "dependencies": {
