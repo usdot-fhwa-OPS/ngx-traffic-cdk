@@ -5,7 +5,8 @@ on:
     tags:
       - "v*"
     branches:
-      - "init-*"
+      - develop
+      - master
 
 jobs:
   publish:
