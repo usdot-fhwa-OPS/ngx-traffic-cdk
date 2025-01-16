@@ -15,8 +15,8 @@
     "experimentalDecorators": true,
     "moduleResolution": "bundler",
     "paths": {
-      "sample-traffic-cdk-component": [
-        "./dist/sample-traffic-cdk-component"
+      "traffic-cdk-map": [
+        "./dist/traffic-cdk-map"
       ]
     },
     "importHelpers": true,

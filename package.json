@@ -6,8 +6,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "build:all": "ng build sample-traffic-cdk-component",
-    "publish:traffic-cdk-component-sample": "cd dist/sample-traffic-cdk-component && npm publish --access public",
+    "build:all": "ng build traffic-cdk-map",
+    "publish:traffic-cdk-map": "cd dist/traffic-cdk-map && npm publish --access public",
     "publish:all": "npm-run-all build:all publish:traffic-cdk-*"
   },
   "private": true,

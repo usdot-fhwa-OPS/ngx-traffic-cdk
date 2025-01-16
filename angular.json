@@ -3,23 +3,23 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "sample-traffic-cdk-component": {
+    "traffic-cdk-map": {
       "projectType": "library",
-      "root": "projects/sample-traffic-cdk-component",
-      "sourceRoot": "projects/sample-traffic-cdk-component/src",
+      "root": "projects/traffic-cdk-map",
+      "sourceRoot": "projects/traffic-cdk-map/src",
       "prefix": "lib",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "project": "projects/sample-traffic-cdk-component/ng-package.json"
+            "project": "projects/traffic-cdk-map/ng-package.json"
           },
           "configurations": {
             "production": {
-              "tsConfig": "projects/sample-traffic-cdk-component/tsconfig.lib.prod.json"
+              "tsConfig": "projects/traffic-cdk-map/tsconfig.lib.prod.json"
             },
             "development": {
-              "tsConfig": "projects/sample-traffic-cdk-component/tsconfig.lib.json"
+              "tsConfig": "projects/traffic-cdk-map/tsconfig.lib.json"
             }
           },
           "defaultConfiguration": "production"
@@ -27,7 +27,7 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "tsConfig": "projects/sample-traffic-cdk-component/tsconfig.spec.json",
+            "tsConfig": "projects/traffic-cdk-map/tsconfig.spec.json",
             "polyfills": [
               "zone.js",
               "zone.js/testing"
