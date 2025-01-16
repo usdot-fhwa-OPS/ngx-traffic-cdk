@@ -78,11 +78,11 @@ To execute unit tests with the [Karma](https://karma-runner.github.io) test runn
     ``` 
     {
       "scripts": {
-      "build:all": "ng build library-one && ng build library-two && ng build library-three",
-      "publish:library-one": "cd dist/library-one && npm publish --access public",
-      "publish:library-two": "cd dist/library-two && npm publish --access public",
-      "publish:library-three": "cd dist/library-three && npm publish --access public",
-      "publish:all": "npm-run-all build:all publish:library-*"
+      "build:all": "ng build library-one && ng build traffic-cdk-library-two && ng build traffic-cdk-library-three",
+      "publish:traffic-cdk-library-one": "cd dist/traffic-cdk-library-one && npm publish --access public",
+      "publish:traffic-cdk-library-two": "cd dist/traffic-cdk-library-two && npm publish --access public",
+      "publish:traffic-cdk-library-three": "cd dist/traffic-cdk-library-three && npm publish --access public",
+      "publish:all": "npm-run-all build:all publish:traffic-cdk-*"
       }
     }
    ```
