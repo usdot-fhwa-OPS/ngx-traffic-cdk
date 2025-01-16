@@ -31,6 +31,11 @@ ngx-traffic-cdk/
 ├── README.md
 ├── ...
 ```
+## Create angular workspace without an initial application
+```
+ng new <PROJECT_NAME> --create-application=false
+```
+
 ## Develop a library component under projects folder
 To create/add a new Angular library component, follow these steps:
 1. Generate the Angular Library

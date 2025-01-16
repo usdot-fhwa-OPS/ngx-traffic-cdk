@@ -3,10 +3,11 @@ name: Publish Libraries
 on:
   push:
     tags:
-      - "v*"
+      - "*"
     branches:
       - develop
       - master
+      - "init-*"
 
 jobs:
   publish:
