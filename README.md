@@ -11,9 +11,10 @@ Licensed under the Apache License, Version 2.0 (the "License"); you may not use 
 ## System Requirements
 The V2X Hub software can run on most Linux-based computers with Pentium core processers, with at least a 64-bit processor, 2GB of RAM, and at least 64GB of drive space. Performance of the software will be based on the computing power and available RAM in the system.  
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.7.
 
 ## Traffic Cdk folder structure
+This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.7.
+
 ```
 ngx-traffic-cdk/
 │
@@ -44,7 +45,7 @@ To create/add a new Angular library component, follow these steps:
     ```
     This creates a library in the projects/<LIBRARY_NAME> folder.
 
-2. Build and Test the Library
+2. Build and Test libraries under this project
     ```
     ng build <PROJECT_NAME>
     ```

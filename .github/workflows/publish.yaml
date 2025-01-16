@@ -7,7 +7,6 @@ on:
     branches:
       - develop
       - master
-      - "init-*"
 
 jobs:
   publish:
