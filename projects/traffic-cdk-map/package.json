@@ -1,5 +1,5 @@
 {
-  "name": "traffic-cdk-map",
+  "name": "@usdot-fhwa-ops/traffic-cdk-map",
   "version": "0.0.1",
   "peerDependencies": {
     "@angular/common": "^19.0.0",
