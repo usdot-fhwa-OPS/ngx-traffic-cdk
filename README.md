@@ -73,7 +73,7 @@ To execute unit tests with the [Karma](https://karma-runner.github.io) test runn
 
 ## Publishing all projects
 1. Ensure each library has a valid `package.json`, and update the `"name"` with `"name": "@your-scope/library-one"`
-2. Update each library `package.json` version with a new version number if old version is already published.
+2. Update each library `package.json` version with a **new version number** if old version is already published.
 3. Update **root** `package.json` with the new library name in build command, below:
     ``` 
     {
