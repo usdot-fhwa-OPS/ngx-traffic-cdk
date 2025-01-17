@@ -1,0 +1,34 @@
+name: Publish Libraries
+
+on:
+  push:
+    tags:
+      - "*"
+    branches:
+      - develop
+      - master
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "18"
+          registry-url: "https://npm.pkg.github.com/"
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build libraries
+        run: npm run build:all
+
+      - name: Publish libraries
+        run: npm run publish:all
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
